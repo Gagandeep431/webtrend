@@ -16,9 +16,7 @@ function AppRoutes() {
             </Route>
             <Route path="/contact" element={
               <Contact/>}>
-            </Route>
-            
-        
+            </Route>      
         </Routes>
     );
 }

@@ -1,9 +1,181 @@
+
+
 .contact-container {
-    padding: 40px;
-  }
-  
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 140vh;
+  background-color: #f0f2f5; /* Add your desired background color */
+}
+/* Style.css */
+
+.FormTitle{
+  width: 1550px;
+  margin-bottom: 10px;
+  padding: 40px;
+  background: rgb(232, 232, 238);
+  color:
+#010A2E;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 60px;
+}
+.contactTitle{
+
+  margin-bottom: 10px;
+  padding: 20px;
+  color: rgb(216, 213, 213);
+  background-color:
+#010A2E;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 60px;
+}
+.card-container {
+  padding: 0px;
+  margin-top: 20px;
+  border-radius: 20px solid gray;
+  background-color: #fff; /* Card background color */
+}
+.infocard-container{
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #010A2E;
+  border-radius: 5px solid gray;
+}
+.infocard-container h3{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: bold;
+}
+.additional-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+.Addcontact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+/*=========*/
+
+.ant-carousel {
+  margin-bottom: 20px; 
+}
+
+.image-info-container {
+  margin:20px 40px;
+  display: flex;
+  gap:30px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.image-container{
+  flex:35%;
+}
+.image-container img{
+  height:450px;
+  width:100%;
+}
+
+.info-container{
+  flex:65%;
+  text-align: left;
+}
+
+.info-container h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 35px;
+  font-weight: 700;
+  color: 
+#010A2E;
+}
+.info-container p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  font-weight: 300;
+  color: 
+#010A2E;
+}
+.image-container {
+  padding-right: 20px;
+}
+.image-container img{
+  height: 200px;
+  width: 520px;
+  padding-right: 20px;
+}
+
+.info-container {
+width: 60%;
+}
+.info-card {
+  width: 100%;
+}
+
+.teamTitle{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 45px;
+  font-weight: 700;
+  background-color: #f0f2f5;
+  color: 
+#010A2E;
+}
+.horizontal-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.horizontal-card {
+  width: calc(25% - 10px);
+  margin-right: 10px;
+}
+.horizontal-card Img{
+  height: 300px;
+  width:130px;
+}    
+
+.CarouselImg{
+  width: 100%;
+  height:600px;
+}
   @media screen and (max-width: 768px) {
     .contact-container {
       padding: 20px;
     }
+  }
+
+  .services {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+   color:#010A2E;
+  }
+  
+  .service-card {
+    margin-top: 20px;
+    /* background-color: #010A2E; */
+
+  
+  }
+  .avatarStyle {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #010A2E;
+  
+  }
+  .card{
+    color: #f8f8f8;
   }
